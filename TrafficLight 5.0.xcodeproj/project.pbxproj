@@ -11,6 +11,8 @@
 		61532B5928CD04B500705493 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61532B5828CD04B500705493 /* ContentView.swift */; };
 		61532B5B28CD04BA00705493 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61532B5A28CD04BA00705493 /* Assets.xcassets */; };
 		61532B5E28CD04BA00705493 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61532B5D28CD04BA00705493 /* Preview Assets.xcassets */; };
+		61532B6528CD050800705493 /* ColorLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61532B6428CD050800705493 /* ColorLight.swift */; };
+		61532B6728CD053200705493 /* ChangeColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61532B6628CD053200705493 /* ChangeColorButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		61532B5828CD04B500705493 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		61532B5A28CD04BA00705493 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61532B5D28CD04BA00705493 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		61532B6428CD050800705493 /* ColorLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLight.swift; sourceTree = "<group>"; };
+		61532B6628CD053200705493 /* ChangeColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColorButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,8 @@
 		61532B4A28CD04B500705493 = {
 			isa = PBXGroup;
 			children = (
+				61532B6428CD050800705493 /* ColorLight.swift */,
+				61532B6628CD053200705493 /* ChangeColorButton.swift */,
 				61532B5528CD04B500705493 /* TrafficLight 5.0 */,
 				61532B5428CD04B500705493 /* Products */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61532B6528CD050800705493 /* ColorLight.swift in Sources */,
 				61532B5928CD04B500705493 /* ContentView.swift in Sources */,
 				61532B5728CD04B500705493 /* TrafficLight_5_0App.swift in Sources */,
+				61532B6728CD053200705493 /* ChangeColorButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
