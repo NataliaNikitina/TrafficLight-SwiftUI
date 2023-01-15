@@ -1,4 +1,4 @@
-# TrafficLights
+# TrafficLights (SwiftUI)
 
 This is a simple change color app built using SwiftUI. Press the button and change the color of the traffic lights!
 
